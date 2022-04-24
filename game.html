@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Val & Nick's Game</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.pixabay.com/photo/2014/03/25/16/24/treasure-297012_960_720.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game.css"/>
+  </head>
+  <body>
+    <div class="title bounce">
+    <h1 class="center">Game Website</h1>
+  </div>
+    <h2>Treasure Hunt</h2>
+    <table id="tictac" border="1">
+      <tr>
+        <td id="0" onclick="ticTac('0')">?</td>
+        <td id="1" onclick="ticTac('1')">?</td>
+        <td id="2" onclick="ticTac('2')">?</td>
+        <td id="3" onclick="ticTac('3')">?</td>
+      </tr>
+      <tr>
+        <td id="4" onclick="ticTac('4')">?</td>
+        <td id="5" onclick="ticTac('5')">?</td>
+        <td id="6" onclick="ticTac('6')">?</td>
+        <td id="7" onclick="ticTac('7')">?</td>
+      </tr>
+      <tr>
+        <td id="8" onclick="ticTac('8')">?</td>
+        <td id="9" onclick="ticTac('9')">?</td>
+        <td id="10" onclick="ticTac('10')">?</td>
+        <td id="11" onclick="ticTac('11')">?</td>
+      </tr>
+      <tr>
+        <td id="12" onclick="ticTac('12')">?</td>
+        <td id="13" onclick="ticTac('13')">?</td>
+        <td id="14" onclick="ticTac('14')">?</td>
+        <td id="15" onclick="ticTac('15')">?</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="box">
+    <h3>Game Rules/Instructions</h3>
+    </div>
+    <div class="box">
+    <ul>
+      <li>The first player to uncover the rainbow is the winner.</li>
+      <li>When the rainbow is uncovered the game is over.</li>
+      <li>Players will play rock, paper, scissors for who goes first.</li>
+      <li>Players take turns putting their marks in squares with a question mark.</li>
+    </ul>
+    </div>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+  </body>
+  </html>
